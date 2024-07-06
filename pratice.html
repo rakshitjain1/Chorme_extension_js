@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+   <button id="btn">OPen box</button>
+    
+    <script>
+        let btn1=document.getElementById("btn")
+        btn1.addEventListener("click",function(){
+            console.log("I want to open the box")
+        })
+
+
+
+     let btn3=document.getElementById("container")
+     btn3.innerHTML= "<button onclick='buy()'>Buy! </button>"
+     function buy(){
+        btn3.innerHTML +="<p>Thank you for buying </p>"
+     }
+
+
+      
+     
+     
+     const p1="per"  // never change by user 
+
+        let credits=45  // change by user
+
+          function add(num1,num2){
+            return num1+num2
+          }
+         console.log(add(5,9))
+    </script>
+</body>
+</html>

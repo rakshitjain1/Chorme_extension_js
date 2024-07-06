@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: green;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+button {
+    /* width: 10%;
+    height: 30px; */
+    font-size: 18px;
+  padding: 10px 20px;
+    cursor: pointer;
+color: black;
+background: greenyellow;
+border: none;
+font-weight: bold;
+   
+}
+button:hover{
+    background-color:black;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+   
+}
+ul{
+    margin-top: 20px;
+list-style: none;
+padding-left: 0;
+
+font-size: 25px;
+font-weight: bold;
+}
+li{
+
+    margin-top: 5px;
+}
+
+ li a{
+
+    color:black;
+ }
